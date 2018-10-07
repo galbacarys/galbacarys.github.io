@@ -8,9 +8,14 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "parcel": "1.8.1",
     "typescript": "^3.1.1"
   },
   "scripts": {
-    "serve-dev": "cd src && python -m SimpleHTTPServer 8080"
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@types/showdown": "^1.7.5",
+    "showdown": "^1.8.6"
   }
 }

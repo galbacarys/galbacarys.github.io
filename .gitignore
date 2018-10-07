@@ -74,3 +74,4 @@ typings/
 
 # build output
 build/
+dist/

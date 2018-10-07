@@ -1,6 +1,69 @@
 /* Basic styles for galbacarys.github.io */
 
+/* Color scheme: 
+#031926: main text color
+#216869: emphasis 1
+#77ACA2: emphasis 2
+#8FADAA: emphasis 3
+#9DBEBB: emphasis 3.5
+#C1C1C1: background
+*/
+
 /* all ungenerated text */
 .hidden-pregen {
     display: none;
+}
+
+/* Body text prettification */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #031926;
+}
+
+h1 {
+    color: #216869;
+}
+
+h2 {
+    color: #77aca2;
+}
+
+h3 {
+    color: #8fadaa;
+}
+
+a:link {
+    color: #8fadaa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9dbebb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9dbebb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #8fadaa;
+    text-decoration: underline;
+}
+
+/* General formatting rules */
+/* background */
+body {
+    background-color: #dddddd;
+}
+
+
+/* Title block Formatting */
+.title-block h1 a {
+    color: #216869;
+}
+
+.title-block h2 {
+    font-size: 80%;
 }
