@@ -1,0 +1,16 @@
+{
+  "name": "galbacarys.github.io",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "main": "index.js",
+  "repository": "https://github.com/galbacarys/galbacarys.github.io",
+  "author": "Gabe Albacarys <g.albacarys@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "serve-dev": "cd src && python -m SimpleHTTPServer 8080"
+  }
+}
